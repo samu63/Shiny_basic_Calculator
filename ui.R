@@ -65,11 +65,14 @@ shinyUI(pageWithSidebar(
                
                br(),
                
-
-               
-
-               
+               p('This is a  simple application that show the normal distribution and Q–Q plot of a set of points.')
                br(),
+               p('The left panel is iniziated by a set of number to show a default graph')
+               p('The user can change the set by digit or paste a number of point.')
+               br(),
+               p('All graph can be downloaded in pdf format.')
+               br(),
+               
                
                a(img(src="http://i.creativecommons.org/p/mark/1.0/80x15.png"), target="_blank", href="http://creativecommons.org/publicdomain/mark/1.0/")
       )
