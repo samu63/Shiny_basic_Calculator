@@ -4,6 +4,12 @@
 #
 # http://shiny.rstudio.com
 #
+
+# This is the user-interface definition of a Shiny web application.
+# You can find out more about building applications with Shiny here:
+#
+# http://shiny.rstudio.com
+#
 library(shiny)
 
 shinyUI(pageWithSidebar(
@@ -65,12 +71,12 @@ shinyUI(pageWithSidebar(
                
                br(),
                
-               p('This is a  simple application that show the normal distribution and Q–Q plot of a set of points.')
+               p('This is a  simple application that show the normal distribution and Q–Q plot of a set of points.'),
                br(),
-               p('The left panel is iniziated by a set of number to show a default graph')
-               p('The user can change the set by digit or paste a number of point.')
+               p('The left panel is iniziated by a set of number to show a default graph'),
+               p('The user can change the set by digit or paste a number of point.'),
                br(),
-               p('All graph can be downloaded in pdf format.')
+               p('All graph can be downloaded in pdf format.'),
                br(),
                
                
